@@ -8,7 +8,7 @@ describe('Calculador', () => {
     expect(calculador.esTriangular(2)).toBe(3);
     expect(calculador.esTriangular(3)).toBe(6);
     expect(calculador.esTriangular(4)).toBe(10);
-    // Agrega más pruebas aquí según sea necesario
+    
   });
 
   test('esPrimo debería calcular si un número es primo correctamente', () => {
@@ -16,7 +16,7 @@ describe('Calculador', () => {
     expect(calculador.esPrimo(2)).toBe(true);
     expect(calculador.esPrimo(3)).toBe(true);
     expect(calculador.esPrimo(4)).toBe(false);
-    // Agrega más pruebas aquí según sea necesario
+    
   });
 
   test('esFibonacci debería calcular la serie Fibonacci correctamente', () => {
@@ -24,12 +24,12 @@ describe('Calculador', () => {
     expect(calculador.esFibonacci(2)).toBe(1);
     expect(calculador.esFibonacci(3)).toBe(2);
     expect(calculador.esFibonacci(4)).toBe(3);
-    // Agrega más pruebas aquí según sea necesario
+    
   });
 
   test('calculoSerie debería calcular la serie correctamente', () => {
-    // Suponiendo que esTriangular, esPrimo y esFibonacci están implementados correctamente
-    // Puedes probar el método calculoSerie con valores conocidos
+    // Suponiendo que esTriangular, esPrimo y esFibonacci son correctos
+    
     expect(calculador.calculoSerie(1)).toBe(7);
     expect(calculador.calculoSerie(2)).toBe(12);
     expect(calculador.calculoSerie(3)).toBe(21);
@@ -40,6 +40,6 @@ describe('Calculador', () => {
     expect(calculador.calculoSerie(8)).toBe(124);
     expect(calculador.calculoSerie(9)).toBe(165);
     expect(calculador.calculoSerie(10)).toBe(221);
-    // Agrega más pruebas aquí según sea necesario
+    
   });
 });
